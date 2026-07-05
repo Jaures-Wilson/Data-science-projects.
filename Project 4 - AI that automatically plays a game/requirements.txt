@@ -1,0 +1,18 @@
+# Requirements for the Reinforcement Learning CartPole project
+# Install with: pip install -r requirements.txt
+
+# RL environments (successor to OpenAI Gym, maintained by the Farama Foundation)
+gymnasium>=0.29.0
+
+# RL algorithms: PPO, A2C, DQN, SAC, and more -- built on top of PyTorch
+stable-baselines3>=2.0.0
+
+# PyTorch is required by Stable-Baselines3
+# Install the CPU version (sufficient for CartPole):
+torch>=2.0.0
+
+# Data handling and numerical computations
+numpy>=1.24.0
+
+# Plotting the score curve and visualizations
+matplotlib>=3.7.0
